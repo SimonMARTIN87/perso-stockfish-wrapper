@@ -1,0 +1,15 @@
+{
+  "name": "chess-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "perso-chess": "file:../Core",
+    "perso-chess-engine": "file:../Engine"
+  }
+}

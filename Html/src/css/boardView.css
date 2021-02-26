@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.board {
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.cell,
+.selected::before,
+.highlight::before {
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.black {
+    background-color: rgb(155, 79, 9);
+}
+
+.white {
+    background-color: rgb(216, 211, 211);
+}
+
+.selected::before,
+.highlight::before {
+    position: absolute;
+    content: '';
+}
+
+.selected::before {
+    background-color: rgba(241, 13, 13, 0.575);
+}
+
+.highlight::before {
+    background-color: rgba(9, 207, 19, 0.575);
+}
